@@ -1,0 +1,142 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studentform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="body">
+
+<h1 class="title" style="color: black;" >STUDENT REGISTRATION FORM</h1>
+<div class="box">
+<div class="tasker">
+<p>Form</p><p>Personal Info</p><p>Submission</p>
+</div>
+<div class="icon_bar">
+<div class="icon1"></div>
+<div class="icon2"></div>
+<div class="icon3"></div>
+</div>
+
+<div class="progressline">
+ <div class="fill">
+
+ </div>
+</div>
+    <div class="content">
+    <!-- Inputs -->
+ <!-- Name Field -->
+<div class="form-row">
+  <label for="stuname">Name:</label>
+  <input class="inone" id="stuname" placeholder="Enter Your Name">
+</div>  
+<!-- Year of Passout Field -->
+<div class="form-row">
+  <label for="stuage">Year of Passout:</label>
+  <input class="inone" id="stuage" placeholder="Enter Year of Passout">
+</div>
+<!-- Email Field -->
+<div class="form-row">
+  <label for="stuemail">Email:</label>
+  <input class="inone" id="stuemail" type="email" placeholder="Enter Your Email" required>
+</div>
+
+  <div class="form-row">
+  <label for="gender">Gender:</label>
+  <div class="radio-group">
+    <label><input type="radio" name="gender" value="male"> Male</label>
+    <label><input type="radio" name="gender" value="female"> Female</label>
+  </div>
+</div>
+<!-- Course -->
+<div class="form-row">
+  <label for="op">Select a course:</label>
+  <select class="sinput" id="op">
+    <option type="option" value="AI/ML">AI/ML</option>
+    <option type="option" value="FULL STACK DEVELOPMENT">FULL STACK DEVELOPMENT</option>
+    <option type="option" value="CYBERSECURITY">CYBERSECURITY</option>
+  </select>
+</div>
+
+
+<!-- Submit Button -->
+<button class="btn" id="addbtn">Next</button>
+
+
+   </div>
+
+</div>
+
+
+<div  class="content2">
+<form>
+  <!-- Date of Birth -->
+  <div class="form-row">
+    <label for="dob">Date of Birth:</label>
+    <input class="inone" type="date" id="dob" name="dob" required>
+  </div>
+
+  <!-- Phone Number -->
+  <div class="form-row">
+    <label for="phone">Phone Number:</label>
+    <input class="inone" type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Enter 10-digit number" required>
+  </div>
+
+  <!-- Address -->
+  <div class="form-row">
+    <label for="address">Address:</label>
+    <textarea class="inadd" id="address" name="address" rows="3" placeholder="Enter your address" required></textarea>
+  </div>
+
+  <!-- Submit Button -->
+  <div class="con2but" style="text-align: right; margin-top: 15px;">
+    <button class="previousbut1">Previous</button>
+    <button class="btn1" type="submit">Submit</button>
+  </div>
+  
+</form>
+</div>
+
+  
+    <div class="tableboxcontainer">   
+  <h2>Student Details </h2>
+   <table >  
+     <thead> 
+      <tr> 
+        <th>Name</th>
+        <th>Year of Passout</th>
+        <th>Gender</th>
+        <th>Course</th>
+        <th>DOB</th>
+        <th>PhoneNo</th>
+        <th>Address</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+      
+      </tr>
+    </tbody>
+  </table>
+</div> 
+<div class="content3">
+    <button class="previousbut2">previous</button>
+    <button class="btn2">Finish</button>
+    </div>
+</div>
+    <div class="notifi">
+        <h4 style="
+text-align: center;
+ line-height: 100px; ">REGISTRATION IS COMPLETED 🔥</h4>
+  
+<script src="script.js"></script>
+</body>
+</html>
+
+
